@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## How to add citations
 
-Cite like that: [@paper]
+Cite like that: [@paper1]
 
 ## R Markdown
 
