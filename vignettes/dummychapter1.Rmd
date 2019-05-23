@@ -19,6 +19,7 @@ vignette: >
   %\VignetteEncoding[utf8]{inputenc}
   %\VignetteKeywords{dummychapter1}
 ---
+# Dummy chapter 1
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
