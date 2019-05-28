@@ -5,7 +5,7 @@ output:
     toc: true
     toc_depth: 3
     fig_width: 5
-bibliography: "`r file.path(system.file(package='dummychapter1', 'vignettes'), 'bibliography.bib')`"
+bibliography: "`r system.file(package='dummychapter1', 'vignettes', 'bibliography.bib')`"
 vignette: >
   %\VignetteIndexEntry{dummychapter1}
   %\VignetteEngine{knitr::rmarkdown}
@@ -138,7 +138,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## How to add figures
 
-`r knitr::include_graphics(file.path(system.file(package='dummychapter1', 'vignettes'), "fig.png"))`
+`r knitr::include_graphics(system.file(package='dummychapter1', 'vignettes', 'fig.png'))`
 
 ## How to add citations
 
