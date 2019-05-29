@@ -14,6 +14,6 @@ RoxygenNote: 6.1.1
 VignetteBuilder:
     knitr,
     rmarkdown
-Suggests: BiocStyle, knitr, rmarkdown
+Suggests: knitr, rmarkdown
 
 
