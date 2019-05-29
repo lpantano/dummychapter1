@@ -5,7 +5,7 @@ output:
     toc: true
     toc_depth: 3
     fig_width: 5
-bibliography: "`r file.path(system.file(package='dummychapter1', 'vignettes'), 'bibliography.bib')`"
+bibliography: "`r system.file(package='dummychapter1', 'vignettes', 'bibliography.bib')`"
 vignette: >
   %\VignetteIndexEntry{dummychapter1}
   %\VignetteEngine{knitr::rmarkdown}
@@ -13,11 +13,11 @@ vignette: >
 ---
 # Insert Workshop Title
 
-# Instructor(s) name(s) and contact information
+## Instructor(s) name(s) and contact information
 
 Provide names and contact information for all instructors.
 
-# Workshop Description
+## Workshop Description
 
 Along with the topic of your workshop, include how students can expect
 to spend their time. For the description may also include information
@@ -59,7 +59,7 @@ An example for a 45-minute workshop:
 | Contributing to Bioconductor | 5m   |
 | Best Practices               | 10m  |
 
-# Workshop goals and objectives
+## Workshop goals and objectives
 
 List "big picture" student-centered workshop goals and learning
 objectives. Learning goals and objectives are related, but not the
@@ -138,7 +138,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## How to add figures
 
-`r knitr::include_graphics(file.path(system.file(package='dummychapter1', 'vignettes'), "fig.png"))`
+`r knitr::include_graphics(system.file(package='dummychapter1', 'vignettes', 'fig.png'))`
 
 ## How to add citations
 
